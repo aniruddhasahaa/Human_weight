@@ -244,7 +244,7 @@ class PipelineConfig:
     RUN_ANALYSIS = True
     
     # Choose CNN model
-    CNN_MODEL = 'efficientnet'  # or 'mobilenet', 'resnet', 'custom'
+    CNN_MODEL = 'efficientnetB0'  # or 'mobilenet', 'resnet', 'custom'
 ```
 
 ---
@@ -590,9 +590,9 @@ mae = mean_absolute_error(merged['y_true_xgb'], merged['y_pred_ensemble'])
 
 ## 🔗 References
 
-- **EfficientNet**: [Tan & Le, 2019](https://arxiv.org/abs/1905.11946)
+- **EfficientNetB0**: [Tan & Le, 2019](https://arxiv.org/abs/1905.11946)
 - **XGBoost**: [Chen & Guestrin, 2016](https://arxiv.org/abs/1603.02754)
-- **Transfer Learning**: [Pan & Yang, 2010](https://ieeexplore.ieee.org/document/5288526)
+- **Transfer Learning**: [Fuzhen Zhuang, at al, 2020](https://ieeexplore.ieee.org/abstract/document/9134370)
 
 ---
 
