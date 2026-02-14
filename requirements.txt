@@ -1,0 +1,18 @@
+# Python Package Requirements
+# Human Weight Estimation - Data Preprocessing
+
+# Core dependencies
+pandas>=1.3.0
+numpy>=1.21.0
+pillow>=8.3.0
+tqdm>=4.62.0
+
+# Deep Learning (if needed for later stages)
+tensorflow>=2.8.0
+
+# Optional: For better progress bars and formatting
+colorama>=0.4.4
+
+# Optional: For Jupyter notebook compatibility (if you want to run in notebooks)
+jupyter>=1.0.0
+ipython>=7.27.0
