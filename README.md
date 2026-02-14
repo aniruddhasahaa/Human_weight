@@ -10,7 +10,6 @@
 7. [Configuration](#configuration)
 8. [Outputs](#outputs)
 9. [Troubleshooting](#troubleshooting)
-10. [Performance Benchmarks](#performance-benchmarks)
 
 ---
 
@@ -429,24 +428,6 @@ META_COLS = META_COLS_SELECTED
         ├── fold_comparison.png
         ├── prediction_scatter.png
         └── error_distribution.png
-```
-
-### Results Files
-
-#### XGBoost Results CSV
-```csv
-test_fold,mae,rmse,r2,train_time_min
-5,8.45,10.23,0.91,2.5
-4,8.67,10.45,0.90,2.4
-...
-```
-
-#### CNN Results CSV
-```csv
-test_fold,mae,rmse,r2,epochs_trained,train_time_min
-5,7.23,9.45,0.93,45,95.3
-4,7.56,9.78,0.92,48,98.7
-...
 ```
 
 ---
