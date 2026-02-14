@@ -592,7 +592,7 @@ mae = mean_absolute_error(merged['y_true_xgb'], merged['y_pred_ensemble'])
 
 - **EfficientNetB0**: [Tan & Le, 2019](https://arxiv.org/abs/1905.11946)
 - **XGBoost**: [Chen & Guestrin, 2016](https://arxiv.org/abs/1603.02754)
-- **Transfer Learning**: [Fuzhen Zhuang, at al, 2020](https://ieeexplore.ieee.org/abstract/document/9134370)
+- **Transfer Learning**: [Fuzhen Zhuang, et al, 2020](https://ieeexplore.ieee.org/abstract/document/9134370)
 
 ---
 
