@@ -517,16 +517,6 @@ python 07_verify_folds.py
 | Storage | 10GB | 20GB+ |
 | CPU | 4 cores | 8+ cores |
 
-### Training Times
-
-| Stage | CPU Time | GPU Time |
-|-------|----------|----------|
-| Preprocessing | 30-60 min | 30-60 min |
-| Fold Creation | 10-20 min | 10-20 min |
-| XGBoost CV | 30-40 min | 30-40 min |
-| CNN CV (EfficientNet) | N/A | 8-12 hours |
-| CNN CV (MobileNet) | N/A | 5-8 hours |
-
 ---
 
 ## 🎓 Advanced Usage
@@ -614,30 +604,6 @@ If you encounter issues:
 3. Run verification scripts
 4. Check GPU availability: `nvidia-smi`
 5. Review error messages carefully
-
----
-
-## 🎯 Next Steps
-
-After completing the pipeline:
-
-1. **Model Comparison**
-   - Compare XGBoost vs CNN performance
-   - Analyze which features/models work best
-
-2. **Fusion Models**
-   - Combine images + metadata
-   - Build early/late fusion architectures
-
-3. **Deployment**
-   - Export best model
-   - Create inference pipeline
-   - Build web API
-
-4. **Improvements**
-   - Collect more data
-   - Try different architectures
-   - Ensemble multiple models
 
 ---
 
