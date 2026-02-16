@@ -42,13 +42,11 @@ python MASTER_PIPELINE.py
 ```
 
 This will execute all stages in order:
-1. Data preprocessing (30-60 min)
-2. Fold creation (10-20 min)
-3. XGBoost training (20-40 min)
-4. CNN training (6-12 hours)
-5. Results analysis (5-10 min)
-
-**Total time: ~7-14 hours** (mostly CNN training)
+1. Data preprocessing 
+2. Fold creation  
+3. XGBoost training  
+4. CNN training  
+5. Results analysis  
 
 ### Option 2: Run Stages Individually
 
